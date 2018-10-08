@@ -1,0 +1,20 @@
+{
+  "name": "inf-roz-matura-javascript",
+  "version": "1.0.0",
+  "description": "All kinds of algorithms from the Polish secondary school-leaving IT exam but written in JavaScript modules. Unit testing in Jest. JS can't actually be picked as a language of your choice on the real exam.",
+  "main": "src/zawody_sportowe/index.js",
+  "author": "ol-web",
+  "scripts": {
+    "tests": "jest",
+    "dev": "jest --watchAll"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.4.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "jest": "^23.5.0",
+    "lodash": "^4.17.10"
+  }
+}
